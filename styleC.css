@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --fontepadrao: "Nunito", sans-serif;
+    --fontetitulo: "Poppins", sans-serif;
+
+    /* Paleta */
+    --verde1: #f2ffb5;
+    --verde2: #ceeb81;
+    --verde3: #a3d444;
+    --verde4: #679e02;
+    --verde5: #36691d;
+
+    --azul1: #add6ff;
+    --azul2: #88bdff;
+    --azul3: #4da3f4;
+    --azul4: #1462b8;
+    --azul5: #001b80;
+
+    --vermelho1: #f2f2f2;
+    --vermelho2: #d90d0d;
+    --vermelho3: #a60d1a;
+    --vermelho4: #730912;
+    --vermelho5: #260101;
+}
+
+body{
+    background-image: linear-gradient(to right, var(--azul1), var(--azul2), var(--azul3)) ;
+}
+
+fieldset {
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--fontetitulo);
+    font-size: 1.5em;
+}
+
+.cadastro {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#inputs {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar a linha se necessário */
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.input-container {
+    position: relative;
+    width: 48%; /* Cada input ocupa 48% da largura */
+}
+
+.input-container i {
+    position: absolute;
+    left: 10px; /* Ícone fica à esquerda dentro do input */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: #001b80;
+    pointer-events: none; /* Ícone não interfere no foco do input */
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Espaço à esquerda para o ícone */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.input-container input:focus {
+    border-color: #001b80;
+    outline: none;
+}
+
+#historicoC, #condicao{
+    height: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    color: #fff;
+    background-color: #1462b8;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #11549b;
+}
+

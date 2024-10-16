@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    /* Paleta */
+    --verde1: #f2ffb5;
+    --verde2: #ceeb81;
+    --verde3: #a3d444;
+    --verde4: #679e02;
+    --verde5: #36691d;
+
+    --azul1: #add6ff;
+    --azul2: #88bdff;
+    --azul3: #4da3f4;
+    --azul4: #1462b8;
+    --azul5: #001b80;
+
+    --vermelho1: #f2f2f2;
+    --vermelho2: #d90d0d;
+    --vermelho3: #a60d1a;
+    --vermelho4: #730912;
+    --vermelho5: #260101;
+
+    /* Fontes */
+    --fonte-titulo: 'Poppins', sans-serif;
+    --fonte-p: 'Nunito', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fonte-p);
+}
+
+nav{
+    margin-top: -6px;
+    background-color: #001b80;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    transition: 0.5s;
+    padding: 17px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover{
+    background-color: #05269e;
+}
+
+#inicio{
+    font-family: var(--fonte-titulo);
+    margin-left: 574px;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.centralizador {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: justify;
+}
+
+.centralizador h1{
+    font-family: var(--fonte-titulo);
+    padding-top: 45px;
+    text-align: center;
+}
+
+#aviso{
+    color: var(--vermelho4);
+}
+
+button{
+    font-family: var(--fonte-p);
+    width: 190px;
+    padding: 20px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 50px;
+    background-color: #d3d3d3;
+    font-size: medium;
+    color: var(--azul4);
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+button:hover{
+    background-color: #a6a6a6;
+}
+
+.caixa {
+    position: relative;
+    text-align: center;
+    color: var(--vermelho1);
+    background-color: var(--azul5);
+    padding-bottom: 0px;
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    border: var(--azul5);
+    border-radius: 30px;
+    font-family: var(--fonte-titulo);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--azul5);
+    color: var(--vermelho1);
+    font-family: var(--azul1);
+    padding-top: 20px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.redessocias{
+    width: 50px;
+    cursor: pointer;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--azul1);
+}

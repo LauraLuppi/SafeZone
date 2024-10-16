@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>surtos</title>
+    <link rel="stylesheet" href="styleMp.css">
+    <link rel="shortcut icon" href="img/logoIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <img src="img/header.png" width="100%" alt="">
+    </header>
+
+    <nav>
+        <a href="inicio.html">INÍCIO</a>
+        <a href="local.html">LOCAL</a>
+        <a href="marcador.html">MARCADOR</a>
+        <a href="mapa.html">MAPA</a>
+        <a href="histSurtos.html">HISTÓRICO DE SURTOS</a>
+        <a href="curso.html">CURSOS</a>
+        <a href="monitoramento.html">MONITORAMENTO</a>
+        <a href="doa.html">DOAÇÕES</a>
+        <a href="#">MEU PLANO</a>
+        <a href="suporte.html">SUPORTE</a>
+    </nav>
+
+    <h2 id="mapa">Mapa</h2>
+    <div id="inputs">
+        <label for="nome">Cidade
+            <div id="input_field">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" id="nome" name="nome">
+            </div>
+        </label>
+    </div>
+    <br>
+    <p id="p">Para o funcionamento do aplicativo offline baixe o mapa anteriormente para saber das doenças de cada local.</p>
+    <br>
+
+    <a href="#"><button class="informacoesLocais" id="baixar">Baixar</button></a>
+
+    <div id="map"></div>
+
+    <footer>
+        <p><a href="index.html"><strong>Sobre Nós</strong></a></p>
+        <a href="https://www.instagram.com/"><img src="img/insta.png" class="redessocias"></a>
+        <a href="https://www.facebook.com/?locale=pt_BR"><img src="img/face.png" class="redessocias"></a>
+        <a href="https://www.whatsapp.com/coronavirus/get-started-business?lang=pt_BR"><img src="img/what.png" class="redessocias"></a>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="scriptMp.js"></script>
+    <script src="scriptBx.js"></script>
+</body>
+</html>
