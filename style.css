@@ -179,4 +179,5 @@ button{
 
 button:hover{
     background-color: var(--azul1);
+    cursor: pointer;
 }

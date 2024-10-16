@@ -85,8 +85,10 @@ h1{
 
 #botaoFree:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 #botaoPremium:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
