@@ -74,8 +74,9 @@ body {
     overflow-y: auto;
     background-color: #fff; 
     border-radius: 10px;
-    opacity: 0.5;
 }
+
+
 
 #user-input {
     width: 600px;
